@@ -12,3 +12,5 @@ Samle project for Bouncing pixel
 
 ### express server starts on port 3000 and you can see the following screen in the browser
 
+![Node Test](/screens/home_screen.png)
+
