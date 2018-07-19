@@ -1,0 +1,342 @@
+body {
+  background-color: grey;
+  width: 100%;
+  padding:0px;
+}
+
+.box{
+  background-color: #f9f6f6;
+  height: auto;
+  margin: 0% 3%;
+}
+
+section {
+   padding: 0px 3%;
+   clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.displayinline{
+   display: inline;
+}
+
+.inlineblock {
+    display: inline-flex;
+}
+
+.bgblue {
+  background-color: rgb(26, 128, 192);
+}
+
+.bgdrblue {
+   background-color: rgb(61, 180, 255);
+}
+
+.bggreen {
+   background-color: rgb(148, 199, 55);
+}
+
+.drkorgbg {
+   background-color: rgb(242, 100, 30);
+}
+
+.mdmorgbg {
+    background-color: rgb(255, 132, 0);
+}
+
+.lgtorgbg {
+   background-color: rgb(255, 168, 0);
+}
+
+.bgblue {
+   background-color: rgb(34, 62, 127);
+}
+
+.width50 {
+   width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.flexb {
+   display: flex;
+}
+
+.mrgtop20 {
+   margin-bottom: 20px;
+}
+
+.mrgtop30 {
+   margin-bottom: 30px;
+}
+
+/* Header code, nav links start */
+
+header .headerlogo {
+    padding: 2%;
+    float: left;
+}
+
+.rightbox {
+    float:right;
+    background-color: rgb(61, 180, 255);
+    padding: 3% 5%;
+    width: 20%;
+    border-radius: 0px 0px 0px 100%;
+}
+
+nav {
+  clear: right;
+}
+
+.navlinks {
+    float: left;
+    max-width: 35%;
+    margin-left: 30%;
+    padding-left: 10%;
+    z-index: 6;
+    position: absolute;
+    top: 5%;
+    z-index: 7;
+}
+
+.navlinks div {
+   float: left;
+   border-radius: 7px;
+   width: 30%;
+   text-align: center;
+   color: #f9f6f6;
+   padding: 10px;
+   margin-right: 10px;
+   margin-bottom: 7px;
+}
+
+#custinfo {
+  z-index: 6;
+  position: absolute;
+  top: 4%;
+}
+
+.logininfo {
+  float: left;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  background-color: rgb(34, 62, 127);
+  padding: 5px;
+  color: #f9f6f6;
+}
+
+.logininfo .custlogin {
+  font-size: 26px;
+  font-family: "Bangers";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.logininfo .createacct {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.mrgbtm15 {
+    margin-bottom: 15px;
+}
+
+.fntsz18 {
+   font-size: 18px;
+}
+
+.fntsz13 {
+   font-size: 13px;
+}
+
+.contactcls {
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Header code, nav links end */
+
+
+/*Banner start */
+.bannerarea {
+    margin-top: 10%;
+    display: flex;
+    clear: both;
+    margin-bottom: 10%;
+}
+
+#profimg {
+   position: absolute;
+   top: 19%;
+   z-index: 4;
+   margin-left: 10%;
+}
+
+#glowimg {
+    position: absolute;
+    top: 36%;
+    z-index: 3;
+    margin-left:23%;
+}
+
+#orgart{
+  max-width: 36%;
+  margin-top: 10%;
+}
+
+#prptown{
+   max-width: 73%;
+   margin-top: 10%;
+}
+
+/*Banner end */
+
+/* Promo area start */
+.promosec {
+  display: flex;
+}
+
+.promoarea {
+  width: 20%;
+  height: 260px;
+}
+
+.brilliantideastxt {
+  font-size: 60px;
+  font-family: "Bangers";
+  color: rgb(160, 160, 160);
+  line-height: 1.2;
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: 23%;
+}
+
+
+#dogimg {
+  position: absolute;
+  bottom: -18%;
+  z-index: 3;
+}
+
+/* Promo area end */
+
+/* buttons professor corner start */
+.btncls {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 9px;
+  width: 546px;
+  height: 65px;
+  color: #f9f6f6;
+  text-align: center;
+}
+
+.bgtxt {
+  font-size: 36px;
+  font-family: "Bangers";
+}
+
+.imgarea {
+   margin-top: 30px;
+}
+
+.imgarea img {
+   width: 95%;
+   height: 90%;
+   padding: 2%;
+}
+
+.profarea {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.brillarea {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.txtarea {
+   padding: 2%;
+}
+
+.txtarea p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.txtarea h3 {
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: rgb(26, 128, 192);
+  line-height: 1;
+  text-align: left;
+}
+
+
+/* buttons professor corner end */
+
+
+/* Footer CSS start */
+
+.footer {
+  background-color: rgb(61, 180, 255);
+  display: flex;
+  height: 241px;
+}
+
+.footer > div {
+    margin: 20px 20px;
+    width: 25%;
+}
+
+.footerlinks {
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.links a {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footerlogo {
+    padding-bottom: 10px;
+    margin-left: 7%;
+}
+
+.ftadddress {
+  font-size: 13px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Footer CSS end */
