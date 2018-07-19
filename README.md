@@ -1,5 +1,8 @@
 # BouncingpixelSample
-Samle project for Bouncing pixel
+
+Samle project for Bouncing pixel. 
+
+**assumed no responsive design and developed on 13 inch macbook and followed fixed width layout besides usage of percentages.**
 
 ## How to run this project
 
