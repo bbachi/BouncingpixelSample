@@ -8,9 +8,12 @@ Samle project for Bouncing pixel
 *cd to the project root*
 
 ```npm install``` - to install all the dependencies.
+
 ```npm start``` - to run the project
 
 ### express server starts on port 3000 and you can see the following screen in the browser
+
+http://localhost:3000/
 
 ![Node Test](/screens/home_screen.png)
 
